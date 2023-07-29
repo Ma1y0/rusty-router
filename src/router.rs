@@ -1,5 +1,4 @@
 use std::collections::HashMap;
-
 use tokio::{
     io,
     net::{TcpListener, ToSocketAddrs},
@@ -42,7 +41,7 @@ mod tests {
     }
 
     fn a(_buf: [u8; 1460]) {
-        unimplemented!("What the f*ck")
+        unimplemented!("Nonono")
     }
 
     #[tokio::test]
